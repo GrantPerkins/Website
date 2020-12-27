@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20b68225-105a-4933-9150-aeced3ae45b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers-site/.cargo-ok" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers-site/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers-site/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers-site/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workers-site/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrangler.toml" beforeDir="false" afterPath="$PROJECT_DIR$/wrangler.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,8 @@
       <workItem from="1607485452402" duration="8237000" />
       <workItem from="1607494546017" duration="460000" />
       <workItem from="1607537567617" duration="7000" />
-      <workItem from="1609042481627" duration="3931000" />
+      <workItem from="1609042481627" duration="3974000" />
+      <workItem from="1609046759388" duration="93000" />
     </task>
     <servers />
   </component>
