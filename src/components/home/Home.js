@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Card, CardContent, Collapse, Grid, IconButton, Typography} from "@material-ui/core";
-import {Email, GitHub, LinkedIn, Reddit, YouTube} from "@material-ui/icons";
+import {Email, GitHub, LinkedIn, YouTube} from "@material-ui/icons";
 import pfp from "./images/pfp.jpg";
 import "./Home.css";
 
@@ -16,13 +16,11 @@ const styles = {
         width: 250,
         height: 250,
         borderRadius: "50%",
-        border: "7px solid primary"
+        border: "7px solid #30476b"
     },
     header: {
         paddingTop: 10,
     },
-
-
 };
 
 class Home extends Component {
@@ -49,11 +47,6 @@ class Home extends Component {
                                     <Grid item>
                                         <IconButton href={"https://github.com/GrantPerkins"}>
                                             <GitHub style={styles.largeIcon}/>
-                                        </IconButton>
-                                    </Grid>
-                                    <Grid item>
-                                        <IconButton href={"https://www.reddit.com/user/TenseOrBored"}>
-                                            <Reddit style={styles.largeIcon}/>
                                         </IconButton>
                                     </Grid>
                                     <Grid item>

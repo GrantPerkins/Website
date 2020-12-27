@@ -1,0 +1,16 @@
+name = "website"
+type = "javascript"
+account_id = "15165c85663855095df266d90773f8e9"
+workers_dev = true
+route = "perkins.ml/*"
+zone_id = "51a626f696a861b76aa774d109ad9b2d"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[env.production]
+# The ID of the domain to deploying to
+zone_id = "51a626f696a861b76aa774d109ad9b2d"
+# The route pattern your Workers application will be served at
+route = "perkins.ml/*"
